@@ -1,0 +1,3 @@
+step,before,after,removed,removed_pct,notes
+Remove exact duplicates,1874,1874,0,0.0,Removed 0 exact duplicate rows
+Drop rows missing critical fields,1874,1874,0,0.0,Critical cols: ['event_name']

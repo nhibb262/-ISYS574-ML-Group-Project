@@ -1,0 +1,7 @@
+query,tfidf_p@10,tfidf_mrr,count_p@10,count_mrr,semantic_p@10,semantic_mrr
+fun activities for kids,0.7,1.0,0.6,0.3333333333333333,0.1,0.5
+free art classes,0.9,1.0,1.0,1.0,1.0,1.0
+sports recreation,1.0,1.0,1.0,1.0,1.0,1.0
+computer coding workshop,0.4,1.0,0.1,0.125,0.8,1.0
+music performance,1.0,1.0,1.0,1.0,1.0,1.0
+swimming lessons,1.0,1.0,1.0,1.0,1.0,1.0
