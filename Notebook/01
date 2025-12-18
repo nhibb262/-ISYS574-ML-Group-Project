@@ -1,11 +1,70 @@
-
-from google.colab import drive
-drive.mount('/content/drive')
-
-# Create project folder in Drive
-import os
-PROJECT_PATH = '/content/drive/MyDrive/sf-events-explorer'
-os.makedirs(f'{PROJECT_PATH}/data/raw', exist_ok=True)
-os.makedirs(f'{PROJECT_PATH}/data/processed', exist_ok=True)
-os.makedirs(f'{PROJECT_PATH}/models', exist_ok=True)
-
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMF9i7t6Dh9Gwj33No68zlt",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/nhibb262/-ISYS574-ML-Group-Project/blob/main/Notebook/01\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3HBYhkdhnhzf",
+        "outputId": "4b567f05-1244-4924-fd67-1b3fcdd16aa6"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Mounted at /content/drive\n"
+          ]
+        }
+      ],
+      "source": [
+        "from google.colab import drive\n",
+        "drive.mount('/content/drive')\n",
+        "\n",
+        "# Create project folder in Drive\n",
+        "import os\n",
+        "PROJECT_PATH = '/content/drive/MyDrive/sf-events-explorer'\n",
+        "os.makedirs(f'{PROJECT_PATH}/data/raw', exist_ok=True)\n",
+        "os.makedirs(f'{PROJECT_PATH}/data/processed', exist_ok=True)\n",
+        "os.makedirs(f'{PROJECT_PATH}/models', exist_ok=True)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "qXCdMwPJoWAL"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
