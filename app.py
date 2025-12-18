@@ -32,10 +32,10 @@ def load_data():
     """Load the cleaned events dataset."""
     # Try multiple possible paths
     possible_paths = [
-        'data/processed/events_cleaned.csv',
+        'Data/processed/events_cleaned.csv',
         'Data/processed/events_cleaned.csv',
         'events_cleaned.csv',
-        'data/events_cleaned.csv'
+        'Data/events_cleaned.csv'
     ]
     
     for path in possible_paths:
