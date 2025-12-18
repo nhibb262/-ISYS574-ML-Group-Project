@@ -1,1 +1,11 @@
 
+from google.colab import drive
+drive.mount('/content/drive')
+
+# Create project folder in Drive
+import os
+PROJECT_PATH = '/content/drive/MyDrive/sf-events-explorer'
+os.makedirs(f'{PROJECT_PATH}/data/raw', exist_ok=True)
+os.makedirs(f'{PROJECT_PATH}/data/processed', exist_ok=True)
+os.makedirs(f'{PROJECT_PATH}/models', exist_ok=True)
+
